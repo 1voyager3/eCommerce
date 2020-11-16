@@ -16,7 +16,44 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96aee3e8-68e5-4e86-ac90-d834ffaaa02a" name="Default Changelist" comment="" />
+    <list default="true" id="96aee3e8-68e5-4e86-ac90-d834ffaaa02a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/eCommerce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/orderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/orderActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/userActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/CheckoutSteps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/FormContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/constants/orderConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/constants/userConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/OrderReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/userReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/LoginScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/OrderScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/PaymentScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/PlaceOrderScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/ProfileScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/RegisterScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/screens/ShippingScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/middleware/authMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/authMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/orderModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/orderModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/cartActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/cartActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/constants/CartConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/CartConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/cartReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/cartReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,8 +72,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowTypeScript 3.9.5.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,15 +83,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/data" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/frontend/src" />
       <recent name="$PROJECT_DIR$/frontend/public" />
       <recent name="$PROJECT_DIR$/frontend/src/components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend/data" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,6 +111,7 @@
       <workItem from="1605289331939" duration="929000" />
       <workItem from="1605290434346" duration="14697000" />
       <workItem from="1605309869942" duration="171000" />
+      <workItem from="1605310089565" duration="68146000" />
     </task>
     <servers />
   </component>
@@ -112,18 +150,22 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="491" y="472" key="#Notifications/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605309930366" />
-    <state x="399" y="494" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605103129987">
+    <state x="399" y="494" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605537648393">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="399" y="494" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605103129987" />
+    <state x="399" y="494" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605537648393" />
     <state x="634" y="356" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605100600261">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="634" y="356" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605100600261" />
-    <state x="755" y="581" width="686" height="315" key="Github.ShareDialog" timestamp="1605309911042">
+    <state x="755" y="581" width="686" height="315" key="Github.ShareDialog" timestamp="1605310124813">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="755" y="581" width="686" height="315" key="Github.ShareDialog/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605309911042" />
+    <state x="755" y="581" width="686" height="315" key="Github.ShareDialog/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605310124813" />
+    <state x="549" y="169" key="Github.UntrackedFilesDialog" timestamp="1605310284669">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="549" y="169" key="Github.UntrackedFilesDialog/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605310284669" />
     <state width="1966" height="397" key="GridCell.Tab.0.bottom" timestamp="1605097507500">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -144,9 +186,13 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="922" y="197" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605309891784" />
-    <state x="521" y="0" width="1009" height="1470" key="search.everywhere.popup" timestamp="1605308342209">
+    <state x="612" y="607" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605364505821">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="521" y="0" width="1009" height="1470" key="search.everywhere.popup/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605308342209" />
+    <state x="612" y="607" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605364505821" />
+    <state x="521" y="0" width="1009" height="1470" key="search.everywhere.popup" timestamp="1605562524688">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="521" y="0" width="1009" height="1470" key="search.everywhere.popup/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605562524688" />
   </component>
 </project>
