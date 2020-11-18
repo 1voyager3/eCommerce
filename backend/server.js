@@ -2,6 +2,7 @@ import express from 'express';
 import path from 'path';
 import dotenv from 'dotenv';
 import colors from 'colors';
+import morgan from 'morgan';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 import connectDB from './config/db.js';
 import productRoutes from './routes/productRoutes.js';
@@ -9,14 +10,19 @@ import userRoutes from './routes/userRoutes.js';
 import orderRoutes from './routes/orderRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
 
-// initializing dotenv
+// @desc initializing dotenv
 dotenv.config();
 
-// initializing mongodb
+// @desc initializing mongodb
 connectDB();
 
-// initializing express
+// @desc initializing express
 const app = express();
+
+// @desc initializing morgan
+if (process.env.NODE_ENV === 'development') {
+  app.use( morgan( 'dev' ) );
+}
 
 // @desc allow to accept json data from the body "req.body"
 app.use( express.json() );

@@ -4,11 +4,14 @@ import {
   PRODUCT_DETAILS_REQUEST, PRODUCT_DETAILS_SUCCESS, PRODUCT_DETAILS_FAIL,
   PRODUCT_DELETE_FAIL, PRODUCT_DELETE_SUCCESS, PRODUCT_DELETE_REQUEST,
   PRODUCT_CREATE_FAIL, PRODUCT_CREATE_SUCCESS, PRODUCT_CREATE_REQUEST,
-  PRODUCT_UPDATE_REQUEST, PRODUCT_UPDATE_SUCCESS, PRODUCT_UPDATE_FAIL
+  PRODUCT_UPDATE_REQUEST, PRODUCT_UPDATE_SUCCESS, PRODUCT_UPDATE_FAIL,
+  PRODUCT_CREATE_REVIEW_FAIL, PRODUCT_CREATE_REVIEW_SUCCESS,
+  PRODUCT_CREATE_REVIEW_REQUEST, PRODUCT_TOP_FAIL, PRODUCT_TOP_SUCCESS, PRODUCT_TOP_REQUEST
 } from '../constants/productConstants';
 
 
-export const listProducts = () => async ( dispatch ) => {
+export const listProducts = (
+    keyword = '', pageNumber = '' ) => async ( dispatch ) => {
 
   try {
 
@@ -17,7 +20,9 @@ export const listProducts = () => async ( dispatch ) => {
     } );
 
     // @desc destructuring from response
-    const { data } = await axios.get( '/api/products' );
+    const { data } = await axios.get(
+        `/api/products?keyword=${ keyword }&pageNumber=${ pageNumber }`
+    );
 
     dispatch( {
       type: PRODUCT_LIST_SUCCESS,
@@ -161,6 +166,69 @@ export const updateProduct = ( product ) => async ( dispatch, getState ) => {
     dispatch( {
       type: PRODUCT_UPDATE_FAIL,
       payload: message
+    } );
+  }
+};
+
+export const createProductReview = ( productId, review ) => async (
+    dispatch, getState ) => {
+  try {
+    dispatch( {
+      type: PRODUCT_CREATE_REVIEW_REQUEST
+    } );
+
+    const {
+      userLogin: { userInfo }
+    } = getState();
+
+    const config = {
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${ userInfo.token }`
+      }
+    };
+
+    await axios.post(
+        `/api/products/${ productId }/reviews`, review, config );
+
+    dispatch( {
+      type: PRODUCT_CREATE_REVIEW_SUCCESS
+    } );
+  } catch (error) {
+    const message =
+        error.response && error.response.data.message
+            ? error.response.data.message
+            : error.message;
+
+    dispatch( {
+      type: PRODUCT_CREATE_REVIEW_FAIL,
+      payload: message
+    } );
+  }
+};
+
+export const listTopProducts = () => async ( dispatch ) => {
+
+  try {
+
+    dispatch( {
+      type: PRODUCT_TOP_REQUEST
+    } );
+
+    // @desc destructuring from response
+    const { data } = await axios.get( `/api/products/top` );
+
+    dispatch( {
+      type: PRODUCT_TOP_SUCCESS,
+      payload: data
+    } );
+
+  } catch (error) {
+
+    dispatch( {
+      type: PRODUCT_TOP_FAIL,
+      payload: error.response && error.response.data.message
+          ? error.response.data.message : error.message
     } );
   }
 };
