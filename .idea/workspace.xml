@@ -16,31 +16,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96aee3e8-68e5-4e86-ac90-d834ffaaa02a" name="Default Changelist" comment="Added User &amp; Product Administration">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Meta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Paginate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ProductCarousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/SearchBox.js" afterDir="false" />
+    <list default="true" id="96aee3e8-68e5-4e86-ac90-d834ffaaa02a" name="Default Changelist" comment="Added Morgan, Review functionality, Product Search, Pagination, Carousel, Helmet-React">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/productModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/productModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/productRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/productActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/OrderScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/OrderScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductListScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +78,7 @@
       <workItem from="1605289331939" duration="929000" />
       <workItem from="1605290434346" duration="14697000" />
       <workItem from="1605309869942" duration="171000" />
-      <workItem from="1605310089565" duration="134721000" />
+      <workItem from="1605310089565" duration="136101000" />
     </task>
     <task id="LOCAL-00001" summary="Added Frontend with Auth, Checkout Process with Paypal">
       <created>1605564421472</created>
@@ -115,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605680061424</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Morgan, Review functionality, Product Search, Pagination, Carousel, Helmet-React">
+      <created>1605737574879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605737574880</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +135,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added Frontend with Auth, Checkout Process with Paypal" />
     <MESSAGE value="Added User &amp; Product Administration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added User &amp; Product Administration" />
+    <MESSAGE value="Added Morgan, Review functionality, Product Search, Pagination, Carousel, Helmet-React" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Morgan, Review functionality, Product Search, Pagination, Carousel, Helmet-React" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="472" key="#Notifications" timestamp="1605309930366">
@@ -192,10 +179,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="922" y="197" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605639038809" />
-    <state x="0" y="334" key="Vcs.Push.Dialog.v2" timestamp="1605680066331">
+    <state x="0" y="334" key="Vcs.Push.Dialog.v2" timestamp="1605737577472">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="0" y="334" key="Vcs.Push.Dialog.v2/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605680066331" />
+    <state x="0" y="334" key="Vcs.Push.Dialog.v2/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605737577472" />
     <state x="612" y="607" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605364505821">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
