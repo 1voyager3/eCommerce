@@ -1,4 +1,5 @@
 import express from 'express';
+import path from 'path';
 import dotenv from 'dotenv';
 import colors from 'colors';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
@@ -6,6 +7,7 @@ import connectDB from './config/db.js';
 import productRoutes from './routes/productRoutes.js';
 import userRoutes from './routes/userRoutes.js';
 import orderRoutes from './routes/orderRoutes.js';
+import uploadRoutes from './routes/uploadRoutes.js';
 
 // initializing dotenv
 dotenv.config();
@@ -23,14 +25,25 @@ app.get( '/', ( ( req, res ) => {
   res.send( 'API is running....' );
 } ) );
 
+// @desc ENDPOINTS
 app.use( '/api/products', productRoutes );
 app.use( '/api/users', userRoutes );
 app.use( '/api/orders', orderRoutes );
+app.use( '/api/upload', uploadRoutes );
 
 // @desc paypal config
 app.get( '/api/config/paypal', ( req, res ) => {
-  res.send(process.env.PAYPAL_CLIENT_ID)
+  res.send( process.env.PAYPAL_CLIENT_ID );
 } );
+
+// @desc making a "uploads" directory static in fs to be loaded in the browser
+// app.use( '/uploads', express.static() );
+
+// @desc to mimic "__dirname" due to it's not available if it used by ES module
+// only available in common JS
+const __dirname = path.resolve();
+
+app.use( '/uploads', express.static( path.join( __dirname, '/uploads' ) ) );
 
 // @desc Custom error handling
 app.use( notFound );
