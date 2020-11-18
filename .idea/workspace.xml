@@ -16,10 +16,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96aee3e8-68e5-4e86-ac90-d834ffaaa02a" name="Default Changelist" comment="Added Morgan, Review functionality, Product Search, Pagination, Carousel, Helmet-React">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="96aee3e8-68e5-4e86-ac90-d834ffaaa02a" name="Default Changelist" comment="Added Build Settings">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <workItem from="1605289331939" duration="929000" />
       <workItem from="1605290434346" duration="14697000" />
       <workItem from="1605309869942" duration="171000" />
-      <workItem from="1605310089565" duration="136101000" />
+      <workItem from="1605310089565" duration="136999000" />
     </task>
     <task id="LOCAL-00001" summary="Added Frontend with Auth, Checkout Process with Paypal">
       <created>1605564421472</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605737574880</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Build Settings">
+      <created>1605738761135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605738761135</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,17 +143,18 @@
     <MESSAGE value="Added Frontend with Auth, Checkout Process with Paypal" />
     <MESSAGE value="Added User &amp; Product Administration" />
     <MESSAGE value="Added Morgan, Review functionality, Product Search, Pagination, Carousel, Helmet-React" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Morgan, Review functionality, Product Search, Pagination, Carousel, Helmet-React" />
+    <MESSAGE value="Added Build Settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Build Settings" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="472" key="#Notifications" timestamp="1605309930366">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="491" y="472" key="#Notifications/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605309930366" />
-    <state x="399" y="494" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605537648393">
+    <state x="399" y="494" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605739348334">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="399" y="494" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605537648393" />
+    <state x="399" y="494" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605739348334" />
     <state x="634" y="356" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605100600261">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -179,10 +187,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="922" y="197" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605639038809" />
-    <state x="0" y="334" key="Vcs.Push.Dialog.v2" timestamp="1605737577472">
+    <state x="0" y="334" key="Vcs.Push.Dialog.v2" timestamp="1605738762499">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="0" y="334" key="Vcs.Push.Dialog.v2/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605737577472" />
+    <state x="0" y="334" key="Vcs.Push.Dialog.v2/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1605738762499" />
     <state x="612" y="607" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605364505821">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
